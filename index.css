@@ -1,0 +1,177 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+body {
+    display: flex;
+    font-family: "Outfit", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    background:#eadfd4;
+    color:#4f4039;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 24px;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    width: 100%;
+    max-width: 736px;
+    padding: 30px;
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 400;
+    border-radius: 16px;
+    margin: 40px auto;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.sub-container {
+    background-color: #fff5f9;
+    padding: 1rem 0 0.5rem 1.8rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-bottom: 16px;
+}
+
+
+img {
+    width: 100%;
+    object-fit: cover;
+    height: auto;
+    border-radius: 12px;
+}
+
+.mini-box {
+    font-size: 1.3rem;
+    font-family: "Outfit", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    font-weight: 600;
+    color: #8b2645;
+}
+
+h1 {
+    color:#201913;
+    font-family: "Young Serif", serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 16px 0 10px 0;
+}
+
+h2 {
+    font-size: 1.7rem;
+    font-family: "Young Serif", serif;
+    font-weight: 500;
+    color: #8b4b2a;
+}
+
+.time {
+    font-size: 14px;
+}
+
+span {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+ul {
+    padding: 1rem;
+    padding-left: 22px;
+}
+
+ol {
+    padding: 1rem;
+    padding-left: 1.3rem; 
+    gap: 10px;
+}
+
+ul li::marker {
+    color: #8b2645;
+}
+
+ol li::marker {
+    color: #8b4b2a;
+    font-weight: 700;
+}
+
+li {
+    padding-left: 1rem;
+}
+
+.last {
+    margin-top: 0.9rem;
+}
+
+hr {
+    height: 1px;
+    Color: #fafafa;
+    margin: 24px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+tr {
+    border-bottom: 1px solid #e6dcd8;
+}
+
+tr:last-child {
+    border-bottom: none;
+}
+
+th {
+    padding: 10px 25px;
+    font-weight: 400;
+    text-align: left;
+}
+
+td {
+    font-weight: 900;
+    color: #8b2645
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
